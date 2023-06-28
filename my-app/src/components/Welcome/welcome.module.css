@@ -1,0 +1,119 @@
+.Welcomeparentmr{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    gap: 15em;
+}
+.rightmr{
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.aboveheadmr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    opacity: .9;
+}
+.Headmr{
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: -1.8px;
+    font-weight: 500;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    line-height: 1.08;
+}
+.subheadmr{
+    margin-bottom: 2em;
+    color: #85898D;
+    line-height: 1.5;
+}
+.item1mr{
+    margin-bottom: 1em;
+}
+.item2mr{
+    margin-top: 1em;
+}
+
+.p1{
+    
+  display: inline;
+  font-weight: 500;
+  color: #85898D;
+  margin-right: 15px;
+  font-size: 1.412em;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.208em;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.p2{
+    display: inline;
+    font-weight: 500;
+  color: black;
+  font-size: 1.412em;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.208em;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.p1{
+    display: inline;
+    font-weight: 500;
+    color: #85898D;
+    margin-right: 15px;
+    font-size: 1.412em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.208em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .overlappingtextmr{
+    position: absolute;
+    background-color: #135DE8;
+    border-radius: 14px 14px 14px 0px;
+    width:300px;
+    top: 440px;
+    left: 400px;
+  }
+  .overlappingtextmr h3{
+    padding: 18% 12% 17% 12%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: -0.7px;
+    color: white;
+  }
+  .buttonmr{
+    cursor: pointer;
+    font-family: stolzl,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    background-color: #00BDE0;
+    text-align: center;
+    width: 150px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-top: 2em;
+    color: white;
+  }
+  .buttonmr:hover{
+    background-color: #00ABCB;
+  }
