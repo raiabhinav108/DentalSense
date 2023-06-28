@@ -5,20 +5,45 @@ const Procedure = () =>{
         <div className={styles.proceduregrandparent}>
             <div className={styles.procedureparent}>
                 <div className={styles.approachmr}>Our Approach</div>
-                <div className={styles.procedureheadmr}>The Procedure for a Check-up at SmilePure</div>
+                <div className={styles.procedureheadmr}><h3>The Procedure for a Check-up at SmilePure</h3></div>
                 <div className={styles.parentprocedure}>
                     <div className={styles.child1mr}>
                         <div className={styles.numberlinegrp}>
-                            <div>01</div>
-                            <hr></hr>
+                            <div className={styles.numbersdivmr}>01</div>
+                            <div style={{height:"1px",backgroundColor:"black",width:"300px",backgroundColor:"#abb8c3"}}></div>
                         </div>
                         <div className={styles.definations}>
-                            <div className={styles.defhead}>Book an Appointment</div>
+                            <div className={styles.defhead}>01.Book an Appointment</div>
                             <div className={styles.defabout}>Filling the form for an appointment 
                                                             to  have our specialists evaluate your overall
                                                             health and oral hygine.</div>
                         </div>
                     </div>
+                    <div className={styles.child1mr}>
+                        <div className={styles.numberlinegrp}>
+                            <div className={styles.numbersdivmr}>02</div>
+                            <div style={{height:"1px",backgroundColor:"black",width:"300px",backgroundColor:"#abb8c3"}}></div>
+                        </div>
+                        <div className={styles.definations}>
+                            <div className={styles.defhead}>02.Get Confirmation</div>
+                            <div className={styles.defabout}>Filling the form for an appointment 
+                                                            to  have our specialists evaluate your overall
+                                                            health and oral hygine.</div>
+                        </div>
+                    </div>
+                    <div className={styles.child1mr}>
+                        <div className={styles.numberlinegrp}>
+                            <div className={styles.numbersdivmr}>03</div>
+                            <div style={{height:"1px",backgroundColor:"black",width:"300px",backgroundColor:"#abb8c3"}}></div>
+                        </div>
+                        <div className={styles.definations}>
+                            <div className={styles.defhead}>03.Get an Appointment</div>
+                            <div className={styles.defabout}>Filling the form for an appointment 
+                                                            to  have our specialists evaluate your overall
+                                                            health and oral hygine.</div>
+                        </div>
+                    </div>
+                 
                 </div>
             </div>
         </div>
