@@ -5,7 +5,7 @@ const Welcome = () =>{
         <div>
             <div className={styles.Welcomeparentmr}>
                 <div className={styles.leftmr}>
-                    <img src="https://tooth-fairy.ancorathemes.com/wp-content/uploads/elementor/thumbs/home1-image1-copyright-q1iv4f3n1e18dm76q6lv97hqgqewi8wwy1fcp8s9hw.jpg" width="520px" height="642px" style={{borderRadius:"10px"}}></img>
+                    <img className={styles.welcomeimagemr}src="https://tooth-fairy.ancorathemes.com/wp-content/uploads/elementor/thumbs/home1-image1-copyright-q1iv4f3n1e18dm76q6lv97hqgqewi8wwy1fcp8s9hw.jpg" width="520px" height="642px" style={{borderRadius:"10px"}}></img>
                     <div className={styles.overlappingtextmr}><h3>Impeccable quality, great service</h3></div>
                 </div>
                 <div className={styles.rightmr}>
