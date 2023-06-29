@@ -143,16 +143,16 @@
         gap: 2em;
     }
     .welcomeimagemr{
-        width: 380px;
-        height: 406px;
+        width: 300px;
+        height: 370px;
     }
     .overlappingtextmr{
-        width:240px;
-        top: 300px;
-        left: 200px;
+        width:190px;
+        top: 270px;
+        left: 140px;
       }
       .overlappingtextmr h3{
-        padding: 18% 12% 17% 12%;
+        padding: 14% 10% 15% 10%;
         font-size: 20px;
         font-weight: 700;
         line-height: 1.1em;
