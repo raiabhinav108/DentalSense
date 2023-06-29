@@ -1,0 +1,78 @@
+.Getappointmentgrandparent{
+    
+    background-image: url("https://smilepure.thememove.com/wp-content/uploads/2019/11/h1-banner-n2.png");
+    margin-top: 50px;
+}
+.Getappointmentparent{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-self: center;
+    
+}
+.textmr{
+    width: 80%;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 1.44;
+}
+.findbutton{
+    
+    color: #ffffff;
+    border-color: rgba(255,255,255,0.2);
+    position: relative;
+    z-index: 1;
+    padding: 0 26px;
+    height: 50px;
+    border-width: 3px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 46px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-style: solid;
+    cursor: pointer;
+}
+.appointmentbuttonmr{
+    color: #ffffff;
+    border-color: #002345;
+    background-color: #002345;
+    padding: 0 28px;
+    height: 50px;
+    line-height: 50px;
+    border-width: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.91px;
+    text-transform: uppercase;
+    transition: all .3s, border-width 0s;
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    border-style: solid;
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.buttoncollectionmr{
+    display:flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+@media (min-width: 1200px){
+ .textmr {
+    font-size: 36px;
+}
+}
