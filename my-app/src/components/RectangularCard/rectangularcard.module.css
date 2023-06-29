@@ -1,0 +1,96 @@
+.rectanglegrandparent{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rightsidecardmr{
+    width: 50%;
+    padding-top: 2em;
+    margin: 0 auto;
+}
+.imagescardmr img{
+    width: 540.8px;
+    height: 555px;
+   border-radius: 8px;
+   margin:0px;
+}
+.rectangleparent{
+    border-radius: 8px;
+    display: flex;
+    gap: 2em;
+    background-color: #13544e;
+   width: 90%;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+}
+.whitehow{
+    margin-top:30px;
+    color: #e4ebe4;
+}
+.bigheadparent{
+    width: 75%;
+    margin-bottom: 1.5em;
+
+}
+.bighead{
+    font-size: 56px;
+    line-height: 100%;
+    font-family: serif;
+    color: #91e6b3;
+}
+.smallhead{
+    color: white;
+    font-size: 22px;
+    line-height: 130%;
+}
+.pointsmr{
+    color: #e4ebe4;
+}
+.buttonrectangularcard{
+    cursor: pointer;
+    font-family: stolzl,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    background-color: #e4ebe4;
+    text-align: center;
+    width: 120px;
+    padding: 12px;
+    border-radius: 30px;
+    margin-top: 2em;
+    color: black;
+  }
+  @media screen and (max-width: 767px){
+    .rectangleparent{
+        flex-direction: column-reverse;
+    }
+    .rectangleparent{
+        width: 100%;
+    }
+    .imagescardmr img{
+        width: 360px;
+        height: 255px;
+       border-radius: 8px;
+       margin:0px;
+    }
+    .rightsidecardmr{
+        width: 90%;
+    }
+    .bigheadparent{
+        width: 95%;
+    
+    }
+    .rightsidecardmr{
+        padding-top: 0;
+    }
+    .bighead{
+        font-size: 40px;
+    }
+    .whitehow{
+        margin-top:20px;
+    }
+  }
