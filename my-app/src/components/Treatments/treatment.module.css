@@ -1,0 +1,152 @@
+.ParentTreatment{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.treatmentline{
+  width: 1px;
+  height: 35%;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  background-color: gray;
+  opacity: 0.3;
+  left: 320px;
+}
+.treatmentline2{
+    width: 1px;
+    height: 35%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background-color: gray;
+    opacity: 0.3;
+    left: 690px;
+  }
+  .treatmentline3{
+    width: 1px;
+    height: 35%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    background-color: gray;
+    opacity: 0.3;
+    left: 1050px;
+  }
+.Headergroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 2em;
+}
+.bigheadertreatment{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.description{
+    color: gray;
+    font-size: medium;
+    width: 65%;
+}
+.treatmentsmalltext{
+    color: #85898D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    opacity: .9;
+}
+.Treatmentwithimage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.set4mr,.set3mr,.set2mr,.set1mr{
+    font-weight: 200;
+   width: 200px; 
+}
+
+.set4mr img,.set3mr img,.set2mr img,.set1mr img{
+    margin-bottom: 2em;
+    
+}
+.set4mr h2,.set2mr h2,.set1mr h2{
+    padding-bottom: 3em;
+}
+.set3mr h2{
+   position: relative;
+   top: 20px;
+   width: 200px;
+    padding-bottom: 3em;
+}
+.arrowtreat{
+    position: relative;
+    bottom: -20px;
+}
+@media screen and (max-width: 767px){
+    .Headergroup{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 2em;
+    }
+    .description{
+        width: 100%;
+    }
+    .bigheadertreatment{
+       
+        font-size: 1em;
+        
+    }
+    .Treatmentwithimage{
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+       
+    }
+    .set4mr h2,.set2mr h2,.set3mr h2,.set1mr h2{
+        font-size: 18px;
+    }
+    .set2mr,.set1mr{
+        font-weight: 200;
+       width: 100%;
+       padding-bottom: 2em; 
+    }
+    .set3mr{
+        padding-bottom: 4em;
+    }
+    .set4mr{
+        width: 100%;
+    }
+    .set4mr h2,.set2mr h2,.set1mr h2{
+        padding-bottom: 1em;
+    }
+    .set4mr img,.set3mr img,.set2mr img,.set1mr img{
+        margin-bottom: 1em;
+        
+    }
+    .set3mr h2{
+        position: relative;
+        top: 20px;
+        width: 200px;
+         padding-bottom: 1em;
+     }
+     .treatmentline{
+        display: none;
+       }
+       .treatmentline2{
+        display: none;
+       }
+       .treatmentline3{
+        display: none;
+       }
+}
