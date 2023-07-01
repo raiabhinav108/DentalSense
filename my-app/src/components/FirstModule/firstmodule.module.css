@@ -1,0 +1,83 @@
+.firstgrand{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    height:90vh;
+}
+.firstparent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://tooth-fairy.ancorathemes.com/wp-content/uploads/2023/02/new-header-image3-copyright.jpg");
+    width: 90%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;  
+    background-size:     cover; 
+    border-radius: 10px;
+}
+.heroheader{
+    font-size:4.5em;
+    width: 40%;
+    margin: 60px;
+    
+}
+.herbuttonset{
+    display: flex;
+    margin-left: 60px;
+    gap: 1em;
+}
+.leading{
+    color: #00bde0;
+    display: inline;
+}
+.herobut1{
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    color: white;
+    padding: 1.5em;
+    padding-left: 3.0em;
+    padding-right: 3em;
+    background-color: #135de8;
+}
+.herobut2{
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    color: white;
+    padding: 1.5em;
+    padding-left: 2.0em;
+    padding-right: 2em;
+    background-color: black;
+}
+@media screen and (max-width: 767px){
+    .heroheader{
+        font-size:2.5em;
+        width: 100%;
+        margin: 5px;
+        
+    }
+    .heroheaderparent{
+        margin-top:500px ;
+        color: white;
+    }
+    .lol{
+        display: none;
+    }
+    .herbuttonset{
+        margin-left: 40px;
+    }
+}
+
