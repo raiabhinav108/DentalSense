@@ -72,7 +72,7 @@
         width: 100%;
     }
     .imagescardmr img{
-        width: 100vh;
+        width: 100vw;
         height: 255px;
        border-radius: 8px;
        margin:0px;
