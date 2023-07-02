@@ -9,6 +9,7 @@ import Testimonials from '../components/Testimonials/Testimonials'
 import Treatment from '../components/Treatments/Treatments'
 import FirstModule from '../components/FirstModule/FirstModule'
 import Footer from '../components/Footer/Footer'
+import OurWork from '../components/OurWork/OurWork'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <NewNav/>
         <FirstModule/>
         <Welcome/>
+        <OurWork/>
         <Treatment/>
         <Procedure/>
         <GetAppointment/>

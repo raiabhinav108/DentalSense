@@ -1,0 +1,157 @@
+.ourwork{
+    padding: 15% 5%;
+    display: flex;
+}
+
+.ourwork .main_image img{
+    height: 700px;
+    width:580px;
+}
+.main_desc{
+    padding-left: 70px;
+    padding-top: 5.5em;
+}
+
+.ourwork .main_desc .sub_head{
+    color: #85898D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    opacity: .9;
+}
+
+.ourwork .main_desc .main_head {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-weight: 400;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    line-height: 2.3em;
+}
+
+.ourwork .main_desc .para_head {
+    margin-bottom: 2.5em;
+    letter-spacing: 0.02rem;
+    color: #85898D;
+    line-height: 1.7;
+}
+
+.facilities{
+    display: flex;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.tick{
+    color: #014ED5;;
+    padding-right: 0.7em;
+    font-size: 20px;
+}
+.box1_sub p{
+    color: #102851;
+    font-size: 1em;
+    
+    line-height: 2em;
+}
+.box2_sub p{
+    font-size: 1em;
+    color: #102851;
+    line-height: 2em;
+}
+
+.main_desc hr{
+    margin-top: 2.5em;
+    height: 1px;
+    opacity: 50%;
+    background-color: lightgray;
+    border: none;
+}
+
+.intro_sec{
+    display:flex;
+    padding-top: 30px;
+}
+
+
+
+.intro_sec .sub_img img{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.sub_para h3{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 1.1rem;
+    
+}
+
+@media screen and (max-width: 767px){
+    .ourwork{
+        display: flex;
+        flex-direction: column;
+    }
+    .facilities{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_desc{
+        padding-left: 0;
+        padding-top: 2em;
+    }
+    .ourwork .main_desc .main_head {
+        font-size: 1em;
+        
+        letter-spacing: 0px;
+        font-weight: 400;
+        margin-top: 0.8em;
+        margin-bottom: 0.8em;
+        line-height: 2.3em;
+    }
+    .intro_sec{
+        display:flex;
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro_sec .sub_img img{
+        width: 50px;
+        height:50px;
+        border-radius: 50%;
+        margin-right: 20px;
+    
+    }
+    .sub_para {
+        text-align: center;
+    }
+    
+    .sub_para h3{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-size: 1rem;
+        
+    }
+    .sub_para p{
+        font-size: 0.85rem;
+    }
+    .ourwork .main_image img{
+        height: 500px;
+        width:100%;
+    }
+}
