@@ -14,7 +14,10 @@
 
     z-index: 999;
   }
-
+  .navhead img{
+    width: 110px;
+    
+  }
   .menu li a {
     color: #2B2B2D;
     font-size: 15px;
