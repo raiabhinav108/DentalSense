@@ -27,7 +27,7 @@
 }
 .footer-header hr{
     width: 100%;
-    margin: 2px auto;
+    margin: 1px auto;
     opacity: 40%;
     border: 0.01px solid white;
     margin-top:1%;
@@ -35,7 +35,7 @@
 
 .footer-header img{
     
-    width: 200px;
+    width: 140px;
     height:50px;
     
 }

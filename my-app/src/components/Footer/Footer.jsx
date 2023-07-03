@@ -11,7 +11,7 @@ const Footer = () => {
 
 
        <div className="footer-header">
-          <img src="https://tooth-fairy.ancorathemes.com/wp-content/uploads/2023/01/logo-inverse@2x.png" className="manik" alt=""/>
+          <img src="images/Footer-Dental.svg" className="manik" alt=""/>
           <hr/>
         </div>
     <div className="main">
