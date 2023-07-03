@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import React from 'react';
-import { useMediaQuery } from "@material-ui/core";
+import useMediaQuery from '@mui/material/useMediaQuery';
 import SwiperCore from 'swiper/core';
 // Import Swiper styles
 import "swiper/css";
