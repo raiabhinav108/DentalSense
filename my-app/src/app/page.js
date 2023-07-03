@@ -10,6 +10,7 @@ import Treatment from '../components/Treatments/Treatments'
 import FirstModule from '../components/FirstModule/FirstModule'
 import Footer from '../components/Footer/Footer'
 import OurWork from '../components/OurWork/OurWork'
+import Brands from '../components/Brands/Brands'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <GetAppointment/>
         <RectangularCard/>
         <Testimonials/>
+        <Brands/>
         <Footer/>
     </main>
   )
