@@ -62,6 +62,11 @@
     padding-right: 2em;
     background-color: black;
 }
+.lol{
+    position: relative;
+    top: 0.15em;
+    border-radius: 8px;
+}
 @media screen and (max-width: 767px){
     .heroheader{
         font-size:1.86em;
