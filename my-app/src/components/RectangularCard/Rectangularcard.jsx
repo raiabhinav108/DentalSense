@@ -5,7 +5,7 @@ const RectangularCard= () =>{
             <div className={styles.rectangleparent}>
                 <div className={styles.rightsidecardmr}>
                     <div className={styles.smallhead}>Lorem Ipsum</div>
-                    <div className={styles.bigheadparent}><h1 className={styles.bighead}><p className={styles.whitehow}>This is how </p>good companies find good company</h1></div>
+                    <div className={styles.bigheadparent}><h1 className={styles.bighead}><p className={styles.whitehow}>Get the best</p>Dental Care for your family.</h1></div>
                     <div className={styles.pointsmr}>
                         <p>Access the top 1% of talent on Upwork, and a full suit of hybrid workforce management tools. This is how innovation works now.</p>
                         <br/>

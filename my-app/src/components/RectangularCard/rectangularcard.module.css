@@ -1,6 +1,10 @@
 .rectanglegrandparent{
     margin-top: 50px;
     margin-bottom: 50px;
+    
+}
+.rectangleparent{
+    max-width: 1296px;
 }
 .rightsidecardmr{
     width: 50%;
@@ -9,7 +13,7 @@
 }
 .imagescardmr img{
     width: 540.8px;
-    height: 555px;
+    height: 605px;
    border-radius: 8px;
    margin:0px;
 }
@@ -17,7 +21,7 @@
     border-radius: 8px;
     display: flex;
     gap: 2em;
-    background-color: #13544e;
+    background-color: #00555b;
    width: 90%;
    margin: 0 auto;
    justify-content: center;
@@ -35,8 +39,8 @@
 .bighead{
     font-size: 56px;
     line-height: 100%;
-    font-family: serif;
-    color: #91e6b3;
+    font-weight: 500;
+    color: #78efff;
 }
 .smallhead{
     color: white;
