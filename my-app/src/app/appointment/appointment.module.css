@@ -1,0 +1,89 @@
+.headandcardcollection{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    background-image: url("https://smilepure.thememove.com/wp-content/uploads/2019/11/appontment-form-bg-new2.png");
+    padding-bottom: 3em;
+}
+.appformhead{
+    margin:2em 2em 1.5em 0em;
+    font-size: 32px;
+    font-weight: 600;
+}
+.appgroupoftwo{
+    display: flex;
+    gap: 5em;
+    
+}
+.appcard{
+    height: 530px;
+    display: flex;
+   width: 71%;
+   gap: 3em;
+   background-color: white;
+   border-radius: 10px;
+}
+.apphead{
+    color: white;
+    padding-bottom: 1em;
+}
+.appsubhead{
+    color: white;
+    font-size: 15px;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 4em;
+}
+.appform input{
+
+    width: 105%;
+    outline: none;
+    border: 1px solid #eee;
+    background-color: #eee;
+    color: #486683;
+    font-weight: 500;
+    padding: 3px 20px;
+    height: 40px;
+
+}
+.appgroupoftwo{
+    margin-bottom: 2em;
+}
+
+.accform form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 13px;
+}
+.appbut{
+    border:0px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    color: white;
+    padding: 1.5em;
+    padding-left: 2.0em;
+    padding-right: 2em;
+    background-color: black;
+    cursor: pointer;
+}
+.appbut:hover{
+    opacity: 0.8;
+}
+.appsmalltext{
+    width: 100%;
+    color: gray;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+    font-size: 12px;
+}
