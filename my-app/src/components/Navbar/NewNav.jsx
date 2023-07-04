@@ -20,7 +20,7 @@ const NewNav = () => {
     <a  href='/' className='nav-links'>Home</a>
     <a href='/studio' className='nav-links'>About Us</a>
     <a href='/services' className='nav-links'>Services</a>
-    <a href='/multi' className='nav-links'>Appointment</a>
+    <a href='/appointment' className='nav-links'>Appointment</a>
     <a href='/contact' className='nav-links'>Contact</a>
     </li>
      
