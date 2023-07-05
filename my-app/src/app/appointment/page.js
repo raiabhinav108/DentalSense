@@ -2,6 +2,8 @@
 import { useForm, ValidationError } from '@formspree/react';
 import styles from "./appointment.module.css"
 import Image from 'next/image'
+import NewNav from '../../components/Navbar/NewNav';
+import Footer from '../../components/Footer/Footer';
 
 export default function Appointment() {
     
@@ -11,6 +13,7 @@ export default function Appointment() {
         }
     return(
         <div>
+            <NewNav/>
             <div className={styles.AppointmentParent}>
                 <div className={styles.headandcardcollection}>
                     <div className={styles.apphead}><h1>Make an Appointment</h1></div>
@@ -44,14 +47,22 @@ export default function Appointment() {
                                 </div>
                                 
                                 </div>
-
+                                <div style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
                                 <button className={styles.appbut} type="submit" disabled={state.submitting}>GET APPOINTMENT</button>
+                                <div style={{paddingLeft:"0.5em",paddingRight:"0.5em"}}>OR</div>
+                                <button className={styles.appbut2} type="submit" disabled={state.submitting}>APPOINTMENT ON WHATSAPP</button>
+                                </div>
+                               
                                 <div className={styles.appsmalltext}><p style={{display:"inline",color:"red",fontSize:"15px"}}>* </p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </div>
                             </form>
+                            
                         </div>
+                        
                     </div>
+
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
