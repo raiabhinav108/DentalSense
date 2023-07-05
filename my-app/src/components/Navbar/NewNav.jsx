@@ -8,7 +8,7 @@ const NewNav = () => {
     <header class="header">
     <div className="nav_main">
     <div className="navhead">
-    <a href="" class="logo"><img src='images/Header-Logo.svg'></img></a>
+    <a href="/" class="logo"><img src='images/Header-Logo.svg'></img></a>
     </div>
     <div className="nav_subhead">
     <input class="menu-btn" type="checkbox" id="menu-btn" />
