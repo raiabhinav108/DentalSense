@@ -8,6 +8,7 @@ import NewNav from '../../components/Navbar/NewNav';
 import Footer from '../../components/Footer/Footer';
 import Transformation from '../../components/Transformation/Transformation';
 import Sfinal from '../../components/servicesFinal/Sfinal';
+import DentalCare from '../../components/DentalCare/DentalCare';
 
 export default function Services() {
 
@@ -117,7 +118,7 @@ export default function Services() {
      
     </div>
 
-  <Transformation/>
+  <DentalCare/>
   <Sfinal/>
 
         <Footer/>
