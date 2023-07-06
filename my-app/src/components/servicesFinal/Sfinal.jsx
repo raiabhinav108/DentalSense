@@ -46,7 +46,7 @@ const Sfinal = () => {
           <Typography style={{  fontSize: 19+'px',
     lineHeight: 22+'px',
     fontWeight: 400,
-    color:'#2B2B2D',paddingBottom:7+'px'}}><h4>Adipiscing elit, sed do eiusmod?</h4></Typography>
+    color:'#2B2B2D',paddingBottom:7+'px'}}>Adipiscing elit, sed do eiusmod?</Typography>
         </AccordionSummary>
         <AccordionDetails
         className="accordion-details"
@@ -71,7 +71,7 @@ const Sfinal = () => {
           <Typography style={{  fontSize: 19+'px',paddingBottom:7+'px',
     lineHeight: 22+'px',
     fontWeight: 400,
-    color:'#2B2B2D'}}><h4>Consectetur adipiscing elit?</h4></Typography>
+    color:'#2B2B2D'}}>Consectetur adipiscing elit?</Typography>
         </AccordionSummary>
         <AccordionDetails  className="accordion-details">
           <Typography style={{  fontSize: 0.95+'rem',
@@ -90,7 +90,7 @@ const Sfinal = () => {
           <Typography style={{  fontSize: 19+'px',
     lineHeight: 22+'px',
     fontWeight: 400,
-    color:'#2B2B2D' ,paddingBottom:7+'px'}}><h4>Adipiscing elit nunc porta fringilla?</h4></Typography>
+    color:'#2B2B2D' ,paddingBottom:7+'px'}}>Adipiscing elit nunc porta fringilla?</Typography>
         </AccordionSummary>
         <AccordionDetails  className="accordion-details">
           <Typography style={{  fontSize: 0.95+'rem',
