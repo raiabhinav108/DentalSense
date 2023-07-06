@@ -120,3 +120,83 @@
     padding-top: 0em;
     padding-bottom: 1em;
 }
+@media screen and (max-width: 767px){
+    .appgroupoftwo{
+        flex-direction: column;
+        
+    }  
+    .appsubhead{
+        text-align: left;
+        width: 90%;
+        
+    }
+    .apphead{
+        
+        width: 90%;
+    }
+    .appcard{
+        width: 90%;
+        height: 105%;
+        padding-bottom: 1em;
+        flex-direction: column;
+       
+       gap: 0em;
+       background-color: white;
+       border-radius: 10px;
+    }
+    .cphoto{
+        display: none;
+    }
+    .appform{
+        margin: 0 auto;
+        width: 80%;
+        align-items: center;
+        
+    }
+    .appform input{
+        display: flex;
+        justify-content: centers;
+        margin: 0 auto;
+        align-items: center;
+        width: 88%;
+        outline: none;
+        border: 1px solid #eee;
+        background-color: #eee;
+        color: #486683;
+        font-weight: 500;
+        padding: 3px 20px;
+        height: 40px;
+        
+    }
+    .appgroupoftwo{
+        display: flex;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+    .appformhead{
+        margin:0.5em 1em 0.5em 1em;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .appbut{
+        border:0px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 21px;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: 0;
+        color: white;
+        padding: 1.5em;
+        padding-left: 4.0em;
+        padding-right: 4em;
+        background-color: black;
+        cursor: pointer;
+    }
+    .contbutgrp{
+        display: flex;
+        flex-direction: column;
+    }
+}
