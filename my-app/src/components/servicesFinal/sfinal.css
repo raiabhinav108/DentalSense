@@ -272,7 +272,8 @@
         background-color: #f9f9fa;
         padding: 10% 7% 15%;
         display: flex;
-        justify-content: none;
+        flex-direction: row;
+        justify-content: space-around;
      
     
     }
