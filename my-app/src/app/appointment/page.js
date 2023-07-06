@@ -19,7 +19,7 @@ export default function Appointment() {
                     <div className={styles.apphead}><h1>Make an Appointment</h1></div>
                     <div className={styles.appsubhead} >Let us know your problem, make an appointment and receive the best advice from specialists in the field.</div>
                     <div className={styles.appcard}>
-                        <div className={styles.accleftphoto} ><Image src="/images/dental.png" width={429} height={530} style={{borderRadius:"10px"}}></Image></div>
+                        <div className={styles.accleftphoto} ><Image src="/images/dental.png" className={styles.cphoto} width={429} height={530} style={{borderRadius:"10px"}}></Image></div>
                         <div className={styles.accform}>
                             <div className={styles.appformhead}>Book <p style={{display:"inline",color:"#00BDE0"}}>Appointment</p>
                             </div>
@@ -47,7 +47,7 @@ export default function Appointment() {
                                 </div>
                                 
                                 </div>
-                                <div style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+                                <div className={styles.contbutgrp}style={{display:"flex",alignItems:"center",justifyContent:"space-between"}}>
                                 <button className={styles.appbut} type="submit" disabled={state.submitting}>GET APPOINTMENT</button>
                                 <div style={{paddingLeft:"0.5em",paddingRight:"0.5em"}}>OR</div>
                                 <button className={styles.appbut2} type="submit" disabled={state.submitting}>APPOINTMENT ON WHATSAPP</button>

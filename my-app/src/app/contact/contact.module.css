@@ -1,8 +1,8 @@
 .ContactHeadmr{
-    padding-top: 3em;
-    font-size: 35px;
+    padding-top: 2em;
+    font-size: 55px;
     font-weight: 500;
-    
+    font-weight: 600;
 }
 .contactParent{
     display: flex;
@@ -27,24 +27,30 @@
 }
 .contcardgrp{
     display: flex;
-    gap: 2em;
+    flex-direction: row-reverse;
+    gap: 4em;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
 .rightcontactform{
     border: 1px solid #D3D3D3;
-    padding: 2em;
+    padding: 1em;
     border-radius: 10px 
 }
 .leftsidewritten{
     width: 60%;
 }
 .headWritten{
-    font-size: 25px;
+    width: 80%;
+    font-size: 3.353em;
     font-weight: 500;
-    width: 75%;
-    margin-bottom: 1em;
+    font-style: normal;
+    line-height: 1.053em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -1.8px;
+    padding-bottom: 0.2em;
 }
 .subheadWritten{
     font-size: 14px;
@@ -53,7 +59,7 @@
 }
 .contadressset{
     display: flex;
-    gap: 4em;
+    gap: 1em;
 }
 .conaddset1{
     width: 30%;
@@ -149,7 +155,7 @@
     padding: 1em;
     padding-left: 4.0em;
     padding-right: 4em;
-    background-color: black;
+    background-color: #00BDE0;
     cursor: pointer;
     
 }
@@ -157,8 +163,73 @@
     display: flex;
     gap: 1em;
 }
+@media screen and (max-width: 1024px){
+    .contcardgrp{
+        flex-direction: column-reverse;
+        gap: 2em;
+        padding-bottom: 6em;
+    }
+    .subheadWritten{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+    .headWritten{
+        width: 100%;
+    }
+}
 @media screen and (max-width: 767px) {
     .contcardgrp{
+        flex-direction: column-reverse;
+        gap: 2em;
+        padding-bottom: 6em;
+    }
+    .contactParent{
+        margin: 0px;
+        width: 95%;
+        justify-content: end;
+        align-items: left;
+
+    }
+    .ContactSubHead{
+        width: 90%;
+        
+    }
+    .headWritten{
+        width: 100%;
+        font-size: 2.853em;
+        
+    }
+    .leftsidewritten{
+        width: 80%;
+    }
+    .set1form{
+        display: flex;
         flex-direction: column;
+    }
+    .contform input{
+        width: 80%;
+    }
+    .contform textarea{
+        width: 80%;
+    }
+    .rightcontactform{
+        border: 1px solid #D3D3D3;
+        padding: 1em;
+        border-radius: 10px ;
+        width: 75%;
+        align-items: center;
+        
+    }
+    .conaddset1{
+        width: 40%;
+    }
+    .conaddset2{
+        width: 40%;
+    }
+    .subheadWritten{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 1.5em;
     }
 }

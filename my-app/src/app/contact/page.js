@@ -6,21 +6,21 @@ const Contact = () =>{
         <div>
             <NewNav/>
             <div className={styles.contactParent}>
-                <div className={styles.ContactHeadmr}>Contact Us</div>
+                <div className={styles.ContactHeadmr}>Contact</div>
                 <div className={styles.ContactSubHead}>Great doctor if you need your family member to effective immediate assistance,emergency treatment, or simple consultation.</div>
                 <div className={styles.contcardgrp}>
                     <div className={styles.leftsidewritten}>
-                        <div className={styles.headWritten}>Have a Question? We Review and Accept Patients Requets on 24/7 Basis.</div>
+                        <div className={styles.headWritten}>Have a <p style={{display:"inline",color:"#00BDE0"}}>Question?</p> Get in Touch</div>
                         <div className={styles.subheadWritten}>Give us a call or send an email if you are travelling to our clinic for an appointment, confirm the correct street address with your appointment staff ahead of time to avoid frustration, For more help eith specific addresses see below.</div>
                         <div className={styles.contadressset}>
                             <div className={styles.conaddset1}>
-                                <div className={styles.set1head}>Address 1</div>
+                                <div className={styles.set1head} style={{color:"#00BDE0"}}>Address 1</div>
                                 <div>Kankarbagh chandmari road azad path gali no 2</div>
                                 <div>9430591530</div>
                                 <div>hello@gmail.com</div>
                             </div>
                             <div className={styles.conaddset2}>
-                                <div className={styles.set2head}>Address 2</div>
+                                <div className={styles.set2head} style={{color:"#00BDE0"}}>Address 2</div>
                                 <div>Kankarbagh chandmari road azad path gali no 2</div>
                                 <div>9430591530</div>
                                 <div>hello@gmail.com</div>
