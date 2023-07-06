@@ -1,0 +1,290 @@
+.comp_sec{
+    background-color: #f9f9fa;
+    padding: 4% 7% 10%;
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+.comp1{
+       display: flex; 
+       
+}
+.comp2{
+    display: flex; 
+}
+
+.s_final{
+    background-color: #f9f9fa;
+    padding: 5% 7%;
+    display:flex;
+    justify-content: space-between;
+}
+.s_final .main_sec{
+    display:flex;
+    flex-direction: column;
+    margin:auto 0;
+    
+   
+    
+}
+.s_final .main_sec .head {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-weight: 400;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    line-height: 2.3em;
+    width:70%;
+}
+.s_final .img_sec{
+    display: flex;
+    background-image: url("https://www.oda.org/wp-content/uploads/shutterstock_1687258876-1140x550.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; 
+  height:550px;
+  width:500px;
+  background-size: cover;
+  gap:1em;
+  border-radius: 10px;
+  
+}
+
+.box1k{
+ display: flex;
+ flex-direction: column;
+ background-color:  #135DE8;
+ height: fit-content;
+ margin-top: 20em;
+ padding: 30px 40px;
+ gap:0.75em;
+ border-radius: 15px;
+ margin-left: -30%;
+
+}
+
+.box1k .subhead{
+    font-size: 19px;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    color:#FDFDFD;
+}
+
+.box1k .num{
+    font-size: 3.611em;
+    line-height: 1em;
+    font-weight: 500;
+    letter-spacing: -.1px;
+    color: #FDFDFD;
+
+}
+.box1k .para{
+    color: #C9CCD1;
+    letter-spacing: 0.05em;
+}
+.box2k{
+    display: flex;
+    flex-direction: column;
+    background-color:  #0B0F2F;
+    height: fit-content;
+    margin-top: 20em;
+    padding: 30px 40px;
+    gap:0.75em;
+    border-radius: 20px;
+   }
+
+   .box2k .subhead{
+       font-size: 19px;
+       line-height: 1.4em;
+       font-weight: 500;
+       font-style: normal;
+       text-transform: none;
+       letter-spacing: 0;
+       color:#FDFDFD;
+   }
+   
+   .box2k .num{
+       font-size: 3.611em;
+       line-height: 1em;
+       font-weight: 500;
+       letter-spacing: -.1px;
+       color: #FDFDFD;
+   
+   }
+   .box2k .para{
+       color: #C9CCD1;
+       letter-spacing: 0.05em;
+   }
+
+   .Accordion_gl{
+    margin-right:20%;
+    margin-top: 1.2em;
+   }
+
+   .k_border{
+    border-top: 1px solid #d4d4d4;
+    width:80%;
+    padding:0;
+   }
+   .accordion-summary{
+    width:80%;
+    padding:0;
+   }
+   .accordion-details{
+    padding:0;
+        margin-top:0;
+        margin-bottom:15px;
+    
+        width:80%;
+        
+   }
+   @media screen and (max-width: 1024px){
+    .comp_sec{
+        background-color: #f9f9fa;
+        padding: 10% 3% 15%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap:2em;
+     
+    
+    }
+.box1k{
+    margin-left: -20%;
+    padding: 20px 10px;
+   margin-top: 23em;
+   
+   
+   }
+   .box2k{
+    
+    margin-top: 23em;
+    padding: 20px 10px;
+   
+   }
+       .comp1{
+           
+          justify-content: space-around;
+           gap:1.5em;
+           
+    }
+    .comp2{
+   justify-content: space-around;
+        gap:1.5em;
+    }
+    .s_final .img_sec{
+   
+        height:auto;
+        width:80%;
+        
+        
+      }
+      .s_final{
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+   }
+
+   @media screen and (max-width: 767px){
+      .s_final{
+        display: flex;
+        flex-direction: column;
+      }
+      .s_final .main_sec .head {
+        font-size: 0.9em;
+        font-weight: 300;
+        letter-spacing: -1px;
+        font-weight: 400;
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        line-height: 2.3em;
+        width:100%;
+    }
+    .Accordion_gl{
+        margin-right:0%;
+        margin-top: 0.5em;
+       }
+       .accordion-summary{
+        width:100%;
+     
+       }
+       .k_border{
+        width:100%;
+        
+       }
+       .accordion-details{
+        width:100%;
+     
+       }
+       .box1k{
+ 
+        margin-left: 0%;
+        padding: 20px 10px;
+       
+       
+       }
+       .box2k{
+ 
+     
+        padding: 20px 10px;
+       
+       }
+       .box1k .num{
+        font-size: 3em;
+        line-height: 1em;
+        font-weight: 500;
+        letter-spacing: -.1px;
+        color: #FDFDFD;
+    
+    }
+    .box2k .num{
+        font-size: 3em;
+        line-height: 1em;
+        font-weight: 500;
+        letter-spacing: -.1px;
+        color: #FDFDFD;
+    
+    }
+    .box1k .para{
+        color: #C9CCD1;
+        font-size: 0.85em;
+        letter-spacing: 0.05em;
+        line-height:1.5em;
+    }
+    .box2k .para{
+        color: #C9CCD1;
+        font-size: 0.85em;
+        letter-spacing: 0.05em;
+        line-height: 1.5em;
+    }
+       .s_final .img_sec{
+   
+      height:auto;
+      width:100%;
+      
+      
+    }
+    .comp_sec{
+        background-color: #f9f9fa;
+        padding: 10% 7% 15%;
+        display: flex;
+        justify-content: none;
+     
+    
+    }
+    .comp1{
+           display: flex; 
+           flex-direction: column;
+           gap:1.5em;
+           
+    }
+    .comp2{
+        display: flex; 
+        flex-direction: column;
+        gap:1.5em;
+    }
+   }
