@@ -6,11 +6,11 @@ const Contact = () =>{
         <div>
             <NewNav/>
             <div className={styles.contactParent}>
-                <div className={styles.ContactHeadmr}>Contact</div>
+                <div className={styles.ContactHeadmr}>Contacts</div>
                 <div className={styles.ContactSubHead}>Great doctor if you need your family member to effective immediate assistance,emergency treatment, or simple consultation.</div>
                 <div className={styles.contcardgrp}>
                     <div className={styles.leftsidewritten}>
-                        <div className={styles.headWritten}>Have a <p style={{display:"inline",color:"#00BDE0"}}>Question?</p> Get in Touch</div>
+                        <div className={styles.headWritten}>Have  <p style={{display:"inline",color:"#00BDE0"}}>questions?</p> Get in touch!</div>
                         <div className={styles.subheadWritten}>Give us a call or send an email if you are travelling to our clinic for an appointment, confirm the correct street address with your appointment staff ahead of time to avoid frustration, For more help eith specific addresses see below.</div>
                         <div className={styles.contadressset}>
                             <div className={styles.conaddset1}>

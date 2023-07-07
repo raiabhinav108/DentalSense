@@ -29,11 +29,12 @@
 }
 .apphead{
     color: white;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
+    font-size: 1.553em;
 }
 .appsubhead{
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     width: 40%;
     text-align: center;
     padding-bottom: 4em;
