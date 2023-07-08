@@ -30,42 +30,42 @@
     width:55%;
 }
 .accordion-summary{
-   font-size: 28px;
-        line-height: 1.2em;
+   font-size: 28px !important;
+        line-height: 1.2em !important;
       
-        color:#2B2B2D;
-        padding-bottom: 0.8em;
-        padding-left: 0;
-        padding-right: 0;
+        color:#2B2B2D !important;
+        padding-bottom: 0.8em !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
         
 }
 .accordion-summary h4{
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .accordion-summary2 h4{
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 .accordion-summary2 {
-    font-size: 28px;
-    line-height: 1.2em;
-    font-weight: 500;
-    color:#2B2B2D;
-    border-top: 1px solid #d4d4d4;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0.8em;
-    padding-top: 0.8em;
+    font-size: 28px !important;
+    line-height: 1.2em !important;
+    font-weight: 500 !important;
+    color:#2B2B2D !important;
+    border-top: 1px solid #d4d4d4 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0.8em !important;
+    padding-top: 0.8em !important;
 }
 .accordion-details{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .accordion-details p{
-    color:#6E7276;
-    font-size: 0.95em;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    padding-bottom: 2em;
+    color:#6E7276 !important;
+    font-size: 0.95em !important;
+    line-height: 1.7 !important;
+    letter-spacing: 0.03em !important;
+    padding-bottom: 2em !important;
  
 }
 .faq_image {
