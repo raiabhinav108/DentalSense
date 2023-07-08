@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Footer from '../../components/Footer/Footer'
 import NewNav from '../../components/Navbar/NewNav'
-import { IoIosArrowDown } from "react-icons/Io";
+import { IoIosArrowDown } from "react-icons/io";
 import { styled } from "@mui/material/styles";
 import MuiAccordion from "@mui/material/Accordion";
 import AccordionSummary from '@mui/material/AccordionSummary';
