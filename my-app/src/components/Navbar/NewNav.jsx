@@ -18,7 +18,7 @@ const NewNav = () => {
     <ul class="menu">
     <li>
     <a  href='/' className='nav-links'>Home</a>
-    <a href='/studio' className='nav-links'>About Us</a>
+    <a href='/faqs' className='nav-links'>FAQs</a>
     <a href='/services' className='nav-links'>Services</a>
     <a href='/appointment' className='nav-links'>Appointment</a>
     <a href='/contact' className='nav-links'>Contact</a>
