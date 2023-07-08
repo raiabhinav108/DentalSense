@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer-sec">
 
-
+      <div className="footerparent">
 
        <div className="footer-header">
           <img src="images/Footer-Dental.svg" className="manik" alt=""/>
@@ -104,7 +104,7 @@ const Footer = () => {
 
           </div>
     </div>
-
+</div>
     </div>
   )
 }

@@ -2,7 +2,10 @@
 
 
  
-
+.footerparent{
+  max-width: 1496px;
+  margin: 0 auto;
+}
 .logo-row{
     padding-right: 10em;
     margin-top: 40px;

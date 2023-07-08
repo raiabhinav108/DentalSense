@@ -1,6 +1,8 @@
 .ourwork{
     padding: 5% 5%;
     display: flex;
+    max-width: 1296px;
+    margin: 0 auto;
 }
 
 .ourwork .main_image img{
@@ -29,7 +31,7 @@
     font-weight: bold;
     letter-spacing: -1px;
     font-weight: 400;
-    margin-top: 0.7em;
+    padding-top: 0.1em;
     margin-bottom: 0.7em;
     line-height: 2.3em;
 }

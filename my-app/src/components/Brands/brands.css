@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 
 .fd_section{
-
+    max-width: 1296px;
     min-height:730px;
     padding: 10px 5% 10px;
-
+    margin: 0 auto;
     min-height:731px;
     padding: 90px 5% 50px;
 
