@@ -3,6 +3,7 @@
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    max-width: 1296px;
 }
 .treatmentline{
   width: 1px;
@@ -44,7 +45,7 @@
 .bigheadertreatment{
     display: block;
     font-size: 2em;
-    margin-block-start: 0.67em;
+    margin-block-start: 0.1em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -74,6 +75,27 @@
 .set4mr,.set3mr,.set2mr,.set1mr{
     font-weight: 200;
    width: 200px; 
+   
+}
+.set1mr,.set2mr{
+    border: 2px solid rgba(236, 240, 241, 1);
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+.set4mr{
+    padding-top: 1.5em ;
+    padding-bottom:1.5em ;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px solid rgba(236, 240, 241, 1);
+}
+.set3mr{
+    padding-top: 2em ;
+    padding-bottom:2em ;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px solid rgba(236, 240, 241, 1);
 }
 
 .set4mr img,.set3mr img,.set2mr img,.set1mr img{
@@ -93,6 +115,24 @@
     position: relative;
     bottom: -20px;
 }
+.set1mr:hover{
+    background-color:  rgba(236, 240, 241, 1);
+}
+.set2mr:hover{
+    background-color:  rgba(236, 240, 241, 1);
+}
+.set3mr:hover{
+    background-color:  rgba(236, 240, 241, 1);
+}
+.set4mr:hover{
+    background-color:  rgba(236, 240, 241, 1);
+}
+.tarrow1{
+    transition: all 1s
+}
+.tarrow1:hover{
+    transform: translate(100px);
+}
 @media screen and (max-width: 767px){
     .Headergroup{
         flex-direction: column;
@@ -111,21 +151,24 @@
         flex-direction: column;
         justify-content: left;
         align-items: start;
+        gap: 1em;
        
     }
     .set4mr h2,.set2mr h2,.set3mr h2,.set1mr h2{
         font-size: 18px;
     }
     .set2mr,.set1mr{
+        
         font-weight: 200;
-       width: 100%;
+       width: 40%;
        padding-bottom: 2em; 
     }
     .set3mr{
+        width: 40%;
         padding-bottom: 4em;
     }
     .set4mr{
-        width: 100%;
+        width: 40%;
     }
     .set4mr h2,.set2mr h2,.set1mr h2{
         padding-bottom: 1em;

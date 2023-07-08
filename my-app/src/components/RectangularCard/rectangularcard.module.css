@@ -29,7 +29,7 @@
    align-items: center;
 }
 .whitehow{
-    margin-top:30px;
+    margin-top:20px;
     color: #e4ebe4;
 }
 .bigheadparent{
@@ -44,9 +44,18 @@
     color: #78efff;
 }
 .smallhead{
-    color: white;
+    margin-left: 10px;
     font-size: 22px;
-    line-height: 130%;
+    line-height: 0%;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    opacity: .9;
 }
 .pointsmr{
     color: #e4ebe4;

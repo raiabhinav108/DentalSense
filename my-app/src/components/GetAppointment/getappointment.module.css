@@ -23,11 +23,12 @@
 }
 .findbutton{
     
+    border-radius: 30px;
     color: #ffffff;
     border-color: rgba(255,255,255,0.2);
     position: relative;
     z-index: 1;
-    padding: 0 26px;
+    padding: 5px 30px;
     height: 50px;
     border-width: 3px;
     font-weight: 700;
@@ -40,12 +41,14 @@
     white-space: nowrap;
     border-style: solid;
     cursor: pointer;
+    transition: all 0.3s;
 }
 .appointmentbuttonmr{
+    border-radius: 30px;
     color: #ffffff;
     border-color: #002345;
     background-color: #002345;
-    padding: 0 28px;
+    padding: 5px 30px;
     height: 50px;
     line-height: 50px;
     border-width: 0;
@@ -63,6 +66,16 @@
     cursor: pointer;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.appointmentbuttonmr:hover{
+    background-color:white;
+    color: black;
+    transform: translate(0, -5px);
+}
+.findbutton:hover{
+    opacity: 0.8;
+    transform:  translate(0, -5px);
+    
 }
 .buttoncollectionmr{
     display:flex;
