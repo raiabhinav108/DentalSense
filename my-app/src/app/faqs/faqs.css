@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+.main_faq{
+    background-color: #F7F9FB;
+    font-family: 'Poppins', sans-serif;
+}
+.f_head{
+    margin-bottom: 1.5em;
+}
+.f_head h1{
+    font-size: 3.353em;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.053em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -1.8px;
+    padding-top: 3em;
+  
+    text-align: center;
+    
+}
+.arrow_b{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 2.5em;
+}
+.Accordion_gl{
+   margin:0 auto;
+    width:55%;
+}
+.accordion-summary{
+   font-size: 28px;
+        line-height: 1.2em;
+      
+        color:#2B2B2D;
+        padding-bottom: 0.8em;
+        padding-left: 0;
+        padding-right: 0;
+        
+}
+.accordion-summary h4{
+    font-weight: 500;
+}
+.accordion-summary2 h4{
+    font-weight: 500;
+}
+.accordion-summary2 {
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color:#2B2B2D;
+    border-top: 1px solid #d4d4d4;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.8em;
+    padding-top: 0.8em;
+}
+.accordion-details{
+    padding-left: 0;
+    padding-right: 0;
+}
+.accordion-details p{
+    color:#6E7276;
+    font-size: 0.95em;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    padding-bottom: 2em;
+ 
+}
+.faq_image {
+    padding: 100px 0 150px;
+}
+.faq_image img{
+    height: auto;
+    max-width: 100%;
+}
+
+.s_ourwork{
+    padding:0 7%;
+}
+
+.s_main_desc{
+    padding-right: 70px;
+    padding-top: 0px;
+}
+
+.s_ourwork .s_main_desc .s_sub_head{
+    color: #404040;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    padding-bottom: 1.5em;
+    opacity: .9;
+}
+.s_ourwork .s_main_desc .s_main_head{
+    padding-bottom: 1.7em;
+    
+}
+.s_ourwork .s_main_desc .s_main_head h1{
+    font-size: 3.353em;
+    font-weight: 600;
+    width:40%;
+    line-height: 1.088em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -1px;
+    
+}
+
+.s_ourwork .s_main_desc .s_para_head {
+    margin-bottom: 2em;
+    letter-spacing: 0.02rem;
+    color: #85898D;
+    line-height: 1.7;
+    width:45%;
+    padding-bottom: 1.7em;
+}
+.s_herobut2{
+ 
+    margin-bottom: 2em;
+   
+   }
+   .s_herobut2 a{
+       background-color:  #00bde0;
+       text-decoration: none;
+       color:white;
+       padding: 1em 1.5em;
+       border-radius: 30px;
+       opacity: 1;
+      
+   }
+   .s_herobut2 a:hover{
+       opacity:0.8;
+   
+   }
