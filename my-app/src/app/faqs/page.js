@@ -118,10 +118,11 @@ const Faqs = () => {
         
           <img src="	https://tooth-fairy.ancorathemes.com/wp-content/uploads/elementor/thumbs/home1-image2-copyright-q1iv7tbct9gu0lwerykwdquxcjhilpw6hznhs5kyg4.jpg" alt="" />
         </div>
+        <div className="s_sub_head">WHAT WE DO</div>
         <div className="s_ourwork">
       
       <div className="s_main_desc">
-          <div className="s_sub_head">WHAT WE DO</div>
+          
           <div className="s_main_head"><h1>Keeping Your Teeth Healthy </h1></div>
           <div className="s_para_head"><p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p></div>
 
@@ -129,8 +130,29 @@ const Faqs = () => {
     
 
       </div>
-      <div className="s_main_image">
-
+      <div className="s_sub_desc">
+      <div className="box1">
+      <div className="content">
+        <div className="content1">100+</div>
+        <div className="content2">
+          <div className="sub_cont">
+            <div className="head"><h5>Clients Daily</h5></div>
+            <div className="para"><p>Natus error sit voluptatem aperiam doloremque laudantium, totam rem.</p></div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div className="box1">
+      <div className="content">
+        <div className="content1">2587</div>
+        <div className="content2">
+          <div className="sub_cont">
+            <div className="head"><h5>Perfect Ratings</h5></div>
+            <div className="para"><p>Natus error sit voluptatem aperiam doloremque laudantium, totam rem.</p></div>
+          </div>
+        </div>
+        </div>
+      </div>
       </div>
 
 

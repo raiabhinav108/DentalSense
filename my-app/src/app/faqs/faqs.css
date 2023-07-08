@@ -63,13 +63,13 @@
 .accordion-details p{
     color:#6E7276;
     font-size: 0.95em;
-    line-height: 1.5;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     padding-bottom: 2em;
  
 }
 .faq_image {
-    padding: 100px 0 150px;
+    padding: 100px 0 100px;
 }
 .faq_image img{
     height: auto;
@@ -77,25 +77,27 @@
 }
 
 .s_ourwork{
-    padding:0 7%;
+    padding:0 7% 120px;
+    display: flex;
 }
 
 .s_main_desc{
-    padding-right: 70px;
+    padding-right: 10px;
     padding-top: 0px;
 }
 
-.s_ourwork .s_main_desc .s_sub_head{
+.s_sub_head{
     color: #404040;
-    font-weight: 400;
+   
     font-size: 14px;
     line-height: 18px;
     font-weight: 500;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    padding-bottom: 1.5em;
+    
     opacity: .9;
+    padding :0 7% 1.5em;
 }
 .s_ourwork .s_main_desc .s_main_head{
     padding-bottom: 1.7em;
@@ -104,20 +106,21 @@
 .s_ourwork .s_main_desc .s_main_head h1{
     font-size: 3.353em;
     font-weight: 600;
-    width:40%;
-    line-height: 1.088em;
+    width:70%;
+    line-height: 1.2em;
     text-decoration: none;
     text-transform: none;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     
 }
 
 .s_ourwork .s_main_desc .s_para_head {
     margin-bottom: 2em;
+    font-size: 0.95em;
     letter-spacing: 0.02rem;
     color: #85898D;
     line-height: 1.7;
-    width:45%;
+    width:80%;
     padding-bottom: 1.7em;
 }
 .s_herobut2{
@@ -138,3 +141,165 @@
        opacity:0.8;
    
    }
+
+   .s_sub_desc{
+    padding-top: 10px;
+    display:flex;
+    flex-direction: column;
+   }
+   .s_sub_desc .content{
+     display:flex;
+     gap:3.5em;
+   }
+
+   .content1{
+    font-size: 3.611em;
+    line-height: 1em;
+    font-weight: 500;
+    font-size: 3.611em;
+    line-height: 1em;
+    font-weight: 600;
+   }
+   .sub_cont .head h5{
+    line-height: 1.417em;
+    font-size: 1.412em;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 0.9em;
+   }
+   .sub_cont .para{
+    font-size: 0.95em;
+    margin-bottom: 2em;
+    letter-spacing: 0.02rem;
+    color: #85898D;
+    line-height: 1.7;
+    width:100%;
+    padding-bottom: 1.7em;
+   }
+   @media only screen and (max-width: 767px) {
+    .f_head{
+        margin-bottom: 0.4em;
+    }
+    .f_head h1{
+        font-size: 26px;
+        line-height: 31px;
+
+        letter-spacing: 0;
+        padding-top: 4em;
+      
+        text-align: center;
+        
+    }
+    .arrow_b{
+        text-align: center;
+        font-size: 1em;
+        margin-bottom: 0.8em;
+    }
+    .Accordion_gl{
+        margin:0 auto;
+         width:86%;
+
+         
+     }
+     .accordion-summary{
+        font-size: 18px;
+        line-height: 1.2em;
+
+           
+             color:#2B2B2D;
+             padding-bottom: 0.5em;
+  
+             
+     }
+     .accordion-summary2{
+        font-size: 18px;
+        line-height: 1.2em;
+
+        padding-top: 0.5em;
+             color:#2B2B2D;
+             padding-bottom: 0.5em;
+      
+             
+     }
+
+    .accordion-details p{
+        color:#6E7276;
+        font-size: 13.5px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        padding-bottom: 1em;
+     
+    }
+    .faq_image {
+        padding: 50px 0 50px;
+    }
+    .s_ourwork{
+       padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+    }
+    .s_ourwork .s_main_desc .s_main_head h1{
+    font-size: 26px;
+    line-height: 30px;
+width:100%;
+    letter-spacing: 0;
+    }
+    .s_ourwork .s_main_desc .s_main_head{
+        padding-bottom: 0.8em;
+        
+    }
+    .s_sub_head{
+        padding-bottom: 0.8em;
+    }
+    
+    .s_ourwork .s_main_desc .s_para_head {
+        margin-bottom: 0.8em;
+        font-size: 0.95em;
+        letter-spacing: 0.02rem;
+        color: #85898D;
+        line-height: 1.7;
+        width:100%;
+        padding-bottom: 1.7em;
+    }
+    .s_main_desc{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .s_sub_desc{
+        padding-top: 30px;
+        display:flex;
+        flex-direction: column;
+       }
+    .s_sub_desc .content{
+        display:flex;
+        gap:1em;
+      }
+   
+      .content1{
+        font-size: 2.8em;
+        line-height: 30px;
+    font-weight: 600;
+        letter-spacing: -1.8px;
+      }
+      .sub_cont .head h5{
+       line-height: 1.417em;
+       font-size: 1.412em;
+       font-weight: 500;
+       font-style: normal;
+       padding-bottom: 0.9em;
+      }
+      .sub_cont .para{
+       font-size: 0.95em;
+       margin-bottom: 2em;
+       letter-spacing: 0.02rem;
+       color: #85898D;
+       line-height: 1.7;
+       width:100%;
+       padding-bottom: 0.8em;
+      }
+   }
+   
