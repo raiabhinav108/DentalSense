@@ -202,32 +202,32 @@
          
      }
      .accordion-summary{
-        font-size: 18px;
-        line-height: 1.2em;
+        font-size: 18px !important;
+        line-height: 1.2em !important;
 
            
-             color:#2B2B2D;
-             padding-bottom: 0.5em;
+             color:#2B2B2D !important;
+             padding-bottom: 0.5em !important;
   
              
      }
      .accordion-summary2{
-        font-size: 18px;
-        line-height: 1.2em;
+        font-size: 18px !important;
+        line-height: 1.2em !important;
 
-        padding-top: 0.5em;
-             color:#2B2B2D;
-             padding-bottom: 0.5em;
+        padding-top: 0.5em !important;
+             color:#2B2B2D !important;
+             padding-bottom: 0.5em !important;
       
              
      }
 
     .accordion-details p{
-        color:#6E7276;
-        font-size: 13.5px;
-        line-height: 1.7;
-        letter-spacing: 0.03em;
-        padding-bottom: 1em;
+        color:#6E7276 !important;
+        font-size: 13.5px !important;
+        line-height: 1.7 !important;
+        letter-spacing: 0.03em !important;
+        padding-bottom: 1em !important;
      
     }
     .faq_image {
@@ -299,7 +299,7 @@ width:100%;
        color: #85898D;
        line-height: 1.7;
        width:100%;
-       padding-bottom: 0.8em;
+       padding-bottom: 0.8em ;
       }
    }
    
