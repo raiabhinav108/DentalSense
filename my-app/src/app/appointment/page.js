@@ -12,7 +12,7 @@ export default function Appointment() {
             return <p>Thanks for joining!</p>;
         }
     return(
-        <div>
+        <div className={styles.denbody}>
             <NewNav/>
             <div className={styles.AppointmentParent}>
                 <div className={styles.headandcardcollection}>

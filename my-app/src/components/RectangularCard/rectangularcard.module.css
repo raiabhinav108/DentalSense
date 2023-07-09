@@ -1,5 +1,5 @@
 .rectanglegrandparent{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     
 }
@@ -79,6 +79,11 @@
     color: black;
   }
   @media screen and (max-width: 767px){
+    .rectanglegrandparent{
+        margin-top: 50px;
+        margin-bottom: 0px;
+        
+    }
     .rectangleparent{
         flex-direction: column-reverse;
     }

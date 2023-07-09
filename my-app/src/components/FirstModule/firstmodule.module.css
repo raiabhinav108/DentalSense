@@ -1,6 +1,6 @@
 .firstgrand{
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     height:90vh;
 }
 .firstparent{
@@ -68,7 +68,13 @@
     top: 0.15em;
     border-radius: 8px;
 }
+
 @media screen and (max-width: 767px){
+    .firstgrand{
+        padding-top: 80px;
+        padding-bottom: 50px;
+        height:90vh;
+    }
     .heroheader{
         font-size:1.86em;
         width: 100%;
