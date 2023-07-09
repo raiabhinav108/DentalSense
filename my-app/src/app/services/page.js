@@ -1,7 +1,7 @@
 
 
 "use client";
-
+import { IoIosArrowDown } from "react-icons/io";
 import './services.css'
 
 import NewNav from '../../components/Navbar/NewNav';
@@ -12,38 +12,49 @@ import DentalCare from '../../components/DentalCare/DentalCare';
 
 export default function Services() {
 
-    return(<div>
+    return(<div className="main_s">
         <NewNav/>
+        <div className="f_head"><h1>Our Services</h1></div>
+      <div className="arrow_b"><span><IoIosArrowDown/></span></div>
         <div className="s_ourwork">
       
         <div className="s_main_desc">
             <div className="s_sub_head">WHAT WE OFFER</div>
-            <div className="s_main_head"><h1>Our Dental Services </h1></div>
-            <div className="s_para_head"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
-            <div className="s_facilities">
-          <div className="s_box1">
-            <div className="s_box1_sub"><p><span className="s_tick">✔</span>Comprehensive Dentistry</p></div>
-            <div className="s_box1_sub"><p><span className="s_tick">✔</span>Accepting New Patients</p></div>
-            <div className="s_box1_sub"><p><span className="s_tick">✔</span>Direct Insurance Billing</p></div>
-          </div>
-          <div className="s_box2">
-            <div className="s_box2_sub"><p><span className="s_tick">✔</span>Evening Appointments</p></div>
-            <div className="s_box2_sub"><p><span className="s_tick">✔</span>DentalSense Guarantee</p></div>
-            <div className="s_box1_sub"><p><span className="s_tick">✔</span>Advanced Technology</p></div>
-          </div>
-        
+            <div className="s_main_head"><h1>All Types of Dental Services </h1></div>
+            <div className="s_para_head"><p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p></div>
         </div>
-        <div className="s_herobut2"><a href="/appointment">Get an Appointment </a></div>
-      
-  
-        </div>
-        <div className="s_main_image">
-            <img src="https://thesmilist.com/wp-content/uploads/2021/03/servicebg.jpg" alt=""/>
-        </div>
+        <div className="product1">
+                <div className="imag"><img src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc"><h4>Dental</h4><h4>Implants</h4></div>
+            </div>
+            <div className="product2">
+                <div className="imag"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc"><h4>Dental</h4><h4>Products</h4></div>
+            </div>
+ 
 
 
     </div>
-    <div className="s_services">
+    <div className="sub_work">
+    <div className="product3">
+                <div className="imag"><img src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc"><h4>Cavity </h4><h4>Prevention</h4></div>
+            </div>
+            <div className="product3">
+                <div className="imag"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc"><h4>Root Canal</h4><h4>Treatement</h4></div>
+            </div>
+            <div className="product3">
+                <div className="imag"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc"><h4>Tooth</h4><h4>Extraction</h4></div>
+            </div>
+            <div className="product3">
+                <div className="imag"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc"><h4>Teeth</h4><h4>Whitening</h4></div>
+            </div>
+    </div>
+   
+    {/* <div className="s_services">
        <div className="s_section">
         <div className="service1">
 <div className="sev_img">
@@ -116,7 +127,7 @@ export default function Services() {
             </div>
        </div>
      
-    </div>
+    </div> */}
 
   <DentalCare/>
   <Sfinal/>

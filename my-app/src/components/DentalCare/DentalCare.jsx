@@ -10,22 +10,25 @@ const DentalCare = () => {
                     <div className="col_head">01.</div>
                     <div className="low_col">
                     <div className="col_desc"><h6>Dental Implants</h6></div>
-                    <div className="col_para"><p>Hello how are you</p></div>
+                    <div className="col_para"><p>Consectetur adipiscing elit</p></div>
+                    <div className="col_arr">→</div>
                     </div>
                 </div>
 
-                <div className="dc_col2">
+                <div className="dc_col">
                     <div className="col_head">02.</div>
                     <div className="low_col">
                     <div className="col_desc"><h6>Dental Hygiene</h6></div>
-                    <div className="col_para"><p>Hello how are you</p></div>
+                    <div className="col_para"><p>Consectetur adipiscing elit</p></div>
+                    <div className="col_arr">→</div>
                     </div>
                 </div>
                 <div className="dc_col">
                     <div className="col_head">03.</div>
                     <div className="low_col">
                     <div className="col_desc"><h6>Family Dentistry</h6></div>
-                    <div className="col_para"><p>Hello how are you</p></div>
+                    <div className="col_para"><p>Consectetur adipiscing elit</p></div>
+                    <div className="col_arr">→</div>
                     </div>
                 </div>
             </div>
