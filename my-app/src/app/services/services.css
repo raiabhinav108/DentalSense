@@ -1,141 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
-
+.main_s{
+    background-color: #F7F9FB;
+}
+.f_head{
+    margin-bottom: 1.5em;
+}
+.f_head h1{
+    font-size: 3.353em;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.053em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -1.8px;
+    padding-top: 3em;
+  
+    text-align: center;
+    
+}
+.arrow_b{
+    text-align: center;
+    font-size: 1.3em;
+    margin-bottom: 2.5em;
+}
 .s_ourwork{
-    background-position: center center;
-    background-repeat: repeat;
-    background-image: url(https://thesmilist.com/wp-content/uploads/2021/02/bluebg.png);
-    padding: 10% 7% 5%;
+    background-color: #F7F9FB;
+
+   
+    padding: 0 7% 2em;
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
+.sub_work{
+    background-color: #F7F9FB;
 
-.s_main_image{
-    width:80%;
    
+    padding: 0 7% 5%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
 }
-
-.s_ourwork .s_main_image img{
-    height: auto;
-    width:100%;
-    border-radius: 10px;
-}
-.s_main_desc{
-    padding-right: 70px;
-    padding-top: 0px;
-}
-
-.s_ourwork .s_main_desc .s_sub_head{
+.s_sub_head{
     color: #404040;
-    font-weight: 400;
+   
     font-size: 14px;
     line-height: 18px;
     font-weight: 500;
     font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 0.05rem;
-    padding-top: 1.5em;
+    letter-spacing: 0.1rem;
+    
     opacity: .9;
+    padding :0 0 1.5em;
 }
-
-.s_ourwork .s_main_desc .s_main_head {
-    font-size: 1.8em;
-    font-weight: bold;
-    letter-spacing: -1px;
-    font-weight: 400;
-    margin-top: 0.7em;
-    margin-bottom: 0.7em;
-    line-height: 2.3em;
+.s_main_desc{
+    width:50%;
+}
+.s_ourwork .s_main_desc .s_main_head{
+    padding-bottom: 1.7em;
+    
+}
+.s_ourwork .s_main_desc .s_main_head h1{
+    font-size: 3.353em;
+    font-weight: 600;
+    width:90%;
+    line-height: 1.1em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    
 }
 
 .s_ourwork .s_main_desc .s_para_head {
-    margin-bottom: 2.5em;
+    margin-bottom: 2em;
+    font-size: 0.95em;
     letter-spacing: 0.02rem;
     color: #85898D;
     line-height: 1.7;
+    width:85%;
+    padding-bottom: 1.7em;
 }
 
-.s_facilities{
-    display: flex;
-}
-.s_herobut2{
- padding-top: 40px;
+
+
+
+
+
+
+
+
+.product1{
+width: 25%;
+padding-top: 5.2em;
 
 }
-.s_herobut2 a{
-    background-color:  #00bde0;
-    text-decoration: none;
-    color:white;
-    padding: 1em 1.5em;
-    border-radius: 30px;
-    opacity: 1;
-   
+.product2{
+    width:25%;
+    padding-top: 5.2em;
 }
-.s_herobut2 a:hover{
-    opacity:0.8;
+.product1 .desc {
+
+    font-size: 1.415em;
+    line-height: 1.2em;
+    color:#2b2b2d;
 
 }
-
-.s_box1{
-    display: flex;
-    flex-direction: column;
-    padding-right: 60px;
+.product2 .desc {
+    font-size: 1.415em;
+    line-height: 1.2em;
+    color:#2b2b2d;
 }
-.s_box2{
-    display: flex;
-    flex-direction: column;
+.product3 .desc {
+    font-size: 1.415em;
+    line-height: 1.2em;
+    color:#2b2b2d;
 }
-
-.s_tick{
-    color:  #0086ba;
-    padding-right: 0.7em;
-    font-size: 20px;
-}
-.s_box1_sub p{
-    color: #102851;
-    font-size: 1em;
+.product3{
+    width:25%;
     
-    line-height: 2em;
 }
-.s_box2_sub p{
-    font-size: 1em;
-    color: #102851;
-    line-height: 2em;
+.imag{
+    padding-bottom: 2em;
 }
 
-.s_services{
-    background-color:#f9f9fa;
-    padding: 5% 7% 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+.imag img{
+    height:60px;
+     width:60px;
 }
-.s_services .s_section{
-    display:flex;
-    gap:6em;
-    padding-bottom: 5em;
-}
-.service1{
-    width:33.33%;
-}
-.service1 .sev_img img{
-    width:48px;
-}
-.service1 .sev_desc h3{
-    padding: 10px 0;
-    font-size: 20px;
-    line-height: 1.3em;
-    word-wrap: break-word;
-    color: #404040;
-    font-weight: 400;
-}
-.service1 .sev_para p{
-    font-size: 16px;
-    color: #777777;
-    line-height: 1.66em;
-     font-weight: 300;
-}
-
-
 
 
 
