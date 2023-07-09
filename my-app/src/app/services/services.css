@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 .main_s{
     background-color: #F7F9FB;
 }
-.f_head{
+.k_head{
     margin-bottom: 1.5em;
 }
-.f_head h1{
+.k_head h1{
     font-size: 3.353em;
-    font-weight: 600;
+    font-weight: 800;
     font-style: normal;
     line-height: 1.053em;
     text-decoration: none;
     text-transform: none;
     letter-spacing: -1.8px;
     padding-top: 3em;
-  
-    text-align: center;
-    
+    text-align: center;   
 }
+
 .arrow_b{
     text-align: center;
     font-size: 1.3em;
@@ -25,23 +24,18 @@
 }
 .s_ourwork{
     background-color: #F7F9FB;
-
-   
     padding: 0 7% 2em;
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
 .sub_work{
     background-color: #F7F9FB;
-
-   
     padding: 0 7% 5%;
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
 .s_sub_head{
-    color: #404040;
-   
+    color: #404040; 
     font-size: 14px;
     line-height: 18px;
     font-weight: 500;
@@ -66,10 +60,8 @@
     line-height: 1.1em;
     text-decoration: none;
     text-transform: none;
-    letter-spacing: 0px;
-    
+    letter-spacing: 0px; 
 }
-
 .s_ourwork .s_main_desc .s_para_head {
     margin-bottom: 2em;
     font-size: 0.95em;
@@ -79,14 +71,6 @@
     width:85%;
     padding-bottom: 1.7em;
 }
-
-
-
-
-
-
-
-
 
 .product1{
 width: 25%;
@@ -162,9 +146,6 @@ padding-top: 5.2em;
         margin-bottom: 0.8em;
         line-height: 2.3em;
     }
- 
-
-
     .s_sub_para p{
         font-size: 0.85rem;
     }

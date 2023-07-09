@@ -6,7 +6,6 @@ import './services.css'
 
 import NewNav from '../../components/Navbar/NewNav';
 import Footer from '../../components/Footer/Footer';
-import Transformation from '../../components/Transformation/Transformation';
 import Sfinal from '../../components/servicesFinal/Sfinal';
 import DentalCare from '../../components/DentalCare/DentalCare';
 
@@ -14,7 +13,7 @@ export default function Services() {
 
     return(<div className="main_s">
         <NewNav/>
-        <div className="f_head"><h1>Our Services</h1></div>
+        <div className="k_head"><h1>Our Services</h1></div>
       <div className="arrow_b"><span><IoIosArrowDown/></span></div>
         <div className="s_ourwork">
       
