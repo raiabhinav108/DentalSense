@@ -24,7 +24,7 @@ const Treatment = () =>{
                    
                     <div className={styles.set3mr}>
                     <img src="https://smilepure.thememove.com/wp-content/uploads/2019/06/service-icon-5.png"></img>
-                        <div><h2>Root Canal Treatment</h2></div>
+                        <div className={styles.rct}><h2>Root Canal Treatment</h2></div>
                         <div><span></span><img className={styles.arrowtreat} src="images/right-arrow.png"></img></div>
                     </div>
                     

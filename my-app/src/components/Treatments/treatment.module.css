@@ -78,12 +78,14 @@
    
 }
 .set1mr,.set2mr{
+    border-radius: 10px;
     border: 2px solid rgba(236, 240, 241, 1);
     padding-top: 2em;
     padding-right: 2em;
     padding-left: 2em;
 }
 .set4mr{
+    border-radius: 10px;
     padding-top: 1.5em ;
     padding-bottom:1.5em ;
     padding-left: 2em;
@@ -91,6 +93,7 @@
     border: 2px solid rgba(236, 240, 241, 1);
 }
 .set3mr{
+    border-radius: 10px;
     padding-top: 2em ;
     padding-bottom:2em ;
     padding-left: 2em;
@@ -192,4 +195,9 @@
        .treatmentline3{
         display: none;
        }
+
+       .rct h2{
+        width: 300px;
+       }
+       
 }

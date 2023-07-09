@@ -2,7 +2,7 @@
    max-width: 1296px;
     width: 90%;
     margin: 0 auto;
-    margin-top: 4em;
+    margin-top: 150px;
 }
 .parentprocedure{
     display: flex;
@@ -66,6 +66,10 @@
     font-size: 15px;
 }
 @media screen and (max-width: 767px){
+    .procedureparent{
+        
+         margin-top: 50px;
+     }
     .parentprocedure{
         flex-direction: column;
        
@@ -81,5 +85,12 @@
         font-weight: 800;
         letter-spacing: 0em;
         line-height: 1.44;
+    }
+    .numbersdivmr{
+        padding: 0.5em;
+        width: 6.5%;
+        height: 14%;
+        border-radius: 100%;
+        border: 2px solid #abb8c3;
     }
 }

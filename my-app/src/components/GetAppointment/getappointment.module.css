@@ -1,7 +1,7 @@
 .Getappointmentgrandparent{
     
     background-image: url("https://smilepure.thememove.com/wp-content/uploads/2019/11/h1-banner-n2.png");
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .Getappointmentparent{
     padding-top: 50px;
@@ -90,6 +90,11 @@
 }
 }
 @media screen and (max-width: 767px){
+    .Getappointmentgrandparent{
+    
+        background-image: url("https://smilepure.thememove.com/wp-content/uploads/2019/11/h1-banner-n2.png");
+        margin-top: 50px;
+    }
     .Getappointmentparent{
         flex-direction: column;
     }

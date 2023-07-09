@@ -4,6 +4,7 @@
     margin: 0 auto;
     gap:17.75%;
     max-width: 1296px;
+    margin-bottom: 50px;
 }
 .rightmr{
     align-items: left;
@@ -87,7 +88,7 @@
     background-color: #135DE8;
     border-radius: 14px 14px 14px 0px;
     width:300px;
-    top: 1241px;
+    top: 1311px;
     left: 400px;
   }
   .overlappingtextmr h3{
@@ -139,6 +140,10 @@
       }
   }
   @media screen and (max-width: 767px){
+    .Welcomeparentmr{
+      
+      margin-bottom: 0px;
+  }
     .Welcomeparentmr{
         flex-direction: column;
         gap: 2em;

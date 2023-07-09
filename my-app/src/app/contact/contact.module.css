@@ -183,10 +183,19 @@
     }
 }
 @media screen and (max-width: 767px) {
+    
     .contcardgrp{
         flex-direction: column-reverse;
         gap: 2em;
         padding-bottom: 6em;
+        
+    }
+    .set1form{
+        display: flex;
+        gap: 0em;
+    }
+    .contadressset{
+        margin-left: -15px;
     }
     .contactParent{
         margin: 0px;
@@ -223,17 +232,19 @@
         border-radius: 10px ;
         width: 75%;
         align-items: center;
+        padding-right: 1.3em;
         
     }
     .conaddset1{
-        width: 40%;
+        width: 50%;
     }
     .conaddset2{
-        width: 40%;
+        width: 50%;
     }
     .subheadWritten{
         font-size: 18px;
         width: 100%;
         margin-bottom: 1.5em;
     }
+    
 }
