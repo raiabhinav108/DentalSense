@@ -1,0 +1,236 @@
+.parentimplant{
+    background-color: #F7F9FB;
+   
+}
+.implantmainhead{
+    width: 29%;
+    margin: 0 auto;
+    font-family: stolzl,sans-serif;
+    font-size: 3.353em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.053em;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 2em;
+    margin-bottom: 2.46em;
+    
+
+}
+.stickygrp{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 85%;
+    justify-content: space-between;
+    
+}
+.implantsleft{
+    width: 60%;
+}
+.implantsright{
+    position: sticky;
+    top: 5em;
+    
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    padding-bottom: 3em;
+    
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+.implantsleft img{
+    width: 98%;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+.implantsubhead{
+    font-size: 1.412em;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.208em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-top: 1.3em;
+    margin-bottom: 0.84em;
+    font-weight: 600;
+}
+.implantdescription{
+    color: gray;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.7em;
+    font-weight: inherit;
+    font-style: inherit;
+    outline: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.implantsecondpara{
+    margin-top: 1.5em;
+}
+.implantpara1{
+    color: gray;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.7em;
+    font-weight: inherit;
+    font-style: inherit;
+    outline: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.implantsimageset{
+    display: flex;
+    gap: 0.5em;
+    margin-top: 0.5em;
+    
+}
+.implantsimageset img{
+    width: 48%;
+    
+}
+.implantsmall{
+    color: gray;
+    font-family: inherit;
+    font-size: 80%;
+    margin-bottom: 2em;
+}
+
+.leftformhead{
+    margin-bottom: 1.5em;
+    font-size: 19px;
+    line-height: 1.3em;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-top: -7px;
+    padding-top: 3em;
+    padding-left: 2em;
+}
+.implantsright form{
+    width: 90%;
+    margin: 0 auto;
+}
+.implantsright form input{
+    padding: 10px 0;
+    border: 0px;
+    color: gray;
+    border-bottom: solid rgba(239, 239, 240, 0.9) 1px;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .1px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+.implantsright form button{
+    border: 0px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0;
+    color: white;
+    padding: 1.5em;
+    padding-left: 3.0em;
+    padding-right: 3em;
+    background-color: #00BDE0;
+    margin-top:1.5em;
+    margin-left: 1em;
+}
+.Implantscontactinfo{
+    width: 90%;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.implantscontactinfp{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    font-size: 19px;
+    line-height: 1.3em;
+    font-weight: 500;
+    letter-spacing: 0;
+    
+}
+.implantsaddresspart{
+    width: 60%;
+    margin-left: 1.2em;
+    color: gray;
+    line-height:1.5em;
+}
+.implantemail{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+@media screen and (max-width: 767px){
+    .stickygrp{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 auto;
+        width: 90%;
+        justify-content:none;
+        
+    }
+    .implantsleft{
+        width: 100%;
+    }
+    .implantmainhead{
+        width: 75%;
+        margin: 0 auto;
+        font-family: stolzl,sans-serif;
+        font-size: 2.353em;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 0.553em;
+      
+        padding-top: 3em;
+        margin-bottom: 0.86em;
+        
+    
+    }
+    .implantsright{
+        width: 100%;
+        
+    }
+}
+@media screen and (max-width: 1024px){
+    .stickygrp{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 auto;
+        width: 90%;
+        justify-content:none;
+        
+    }
+    .implantsleft{
+        width: 100%;
+    }
+    .implantmainhead{
+        width: 75%;
+        margin: 0 auto;
+        font-family: stolzl,sans-serif;
+        font-size: 2.353em;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 0.553em;
+      
+        padding-top: 3em;
+        margin-bottom: 0.86em;
+        
+    
+    }
+    .implantsright{
+        width: 100%;
+        
+    }
+}
+
