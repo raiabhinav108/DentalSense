@@ -12,9 +12,17 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { useScroll,motion,useTransform } from "framer-motion";
 import './brands.css'
-
+import { useEffect } from "react";
+import AOS from 'aos';
 const Brands = () => {
+  useEffect(()=>{
+    AOS.init(
+        {
+            duration:1100,
 
+        }
+    );
+},[])
    
     const isMobile = useMediaQuery("(max-width: 767px)");
     const isTablet = useMediaQuery("(max-width: 1024px)");
@@ -39,6 +47,8 @@ const Brands = () => {
       slidesPerView={isMobile ? 1.25 : 2.15}
         speed={1500}
         navigation={!isMobile}
+        data-aos="fade-up"
+        data-aos-delay="50"
       >
 
 

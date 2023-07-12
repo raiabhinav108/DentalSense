@@ -1,10 +1,19 @@
+"use client";
 import './ourwork.css'
-
+import { useEffect } from "react";
+import AOS from 'aos';
 const OurWork = () => {
+  useEffect(()=>{
+    AOS.init(
+        {
+            duration:1100,
+        }
+    );
+},[])
   return (
     <div className="ourwork">
         <div className="main_image">
-            <img src="https://demo.templatic.com/medical/wp-content/uploads/2022/03/hp-sec-1.jpg" alt=""/>
+            <img data-aos="fade-up" src="https://demo.templatic.com/medical/wp-content/uploads/2022/03/hp-sec-1.jpg" alt=""/>
         </div>
         <div className="main_desc">
             <div className="sub_head">Who We Are</div>
