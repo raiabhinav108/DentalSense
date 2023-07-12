@@ -8,6 +8,7 @@
 .ourwork .main_image img{
     height: 700px;
     width:580px;
+    border-radius: 10px;
 }
 .main_desc{
     padding-left: 70px;
