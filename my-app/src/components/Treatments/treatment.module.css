@@ -163,15 +163,15 @@
     .set2mr,.set1mr{
         
         font-weight: 200;
-       width: 40%;
+       width: 80%;
        padding-bottom: 2em; 
     }
     .set3mr{
-        width: 40%;
+        width: 80%;
         padding-bottom: 4em;
     }
     .set4mr{
-        width: 40%;
+        width: 80%;
     }
     .set4mr h2,.set2mr h2,.set1mr h2{
         padding-bottom: 1em;
@@ -183,7 +183,7 @@
     .set3mr h2{
         position: relative;
         top: 20px;
-        width: 200px;
+        width: 500px;
          padding-bottom: 1em;
      }
      .treatmentline{
@@ -197,7 +197,7 @@
        }
 
        .rct h2{
-        width: 300px;
+        width: 200px;
        }
        
 }
