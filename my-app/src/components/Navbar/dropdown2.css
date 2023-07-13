@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+
+.dropdown-menu2 {
+    
+    width: 180px;
+    position: absolute;
+    top: 60px;
+    right: 300px;
+    list-style: none;
+    text-align: start;
+    border-radius: 10px;
+  }
+  
+  .dropdown-menu2 li {
+    
+    cursor: pointer;
+  
+    
+    letter-spacing: 0.03rem;
+     color:black;
+     font-weight: 300;
+     font-size: 0.9rem;
+  }
+  
+  
+
+  .dropdown-link2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+    padding: 16px;
+  }
+  .dropdown-link2:hover {
+    color:black;
+  }

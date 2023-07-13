@@ -1,8 +1,49 @@
-
+"use client";
+import  { useState,useRef } from 'react'
+import Dropdown from './Dropdown'
+import Dropdown2 from './Dropdown2';
 import './newnav.css'
 
 
 const NewNav = () => {
+
+  const [dropdown, setDropdown] = useState(false);
+  const [dropdown2, setDropdown2] = useState(false);
+
+
+  const onMouseEnter = () => {
+    if (window.innerWidth >= 960 && window.innerHeight >= 400) {
+      setDropdown(true);
+      setDropdown2(false);
+    }
+  };
+ 
+  
+
+
+  const onMouseEnter2 = () => {
+    if (window.innerWidth >= 960 && window.innerHeight >= 400) {
+      setDropdown2(true);
+      setDropdown(false);
+    }
+  };
+
+  const handleOnClick = () => {
+    
+      
+      setDropdown(false);
+    
+  };
+  const handleOnClick2 = () => {
+    
+      
+    setDropdown2(false);
+  
+};
+  
+
+  
+
   return (
     <>
     <header class="header">
@@ -11,15 +52,29 @@ const NewNav = () => {
     <a href="/" class="logo"><img src='images/Header-Logo.svg'></img></a>
     </div>
     <div className="nav_subhead">
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <input className="menu-btn" type="checkbox" id="menu-btn" />
    
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <label className="menu-icon" for="menu-btn"><span class="navicon"></span></label>
    
-    <ul class="menu">
+    <ul className="menu">
     <li>
-    <a  href='/' className='nav-links'>Home</a>
+    <a onClick={handleOnClick} 
+        onMouseEnter={onMouseEnter}
+          href='/' className='nav-links'>Home</a>
+    { dropdown && 
+     
+                  <Dropdown  />
+               
+
+    }
     <a href='/faqs' className='nav-links'>FAQs</a>
-    <a href='/services' className='nav-links'>Services</a>
+    <a onClick={handleOnClick2} onMouseEnter={onMouseEnter2} href='/services' className='nav-links'>Services</a>
+    { dropdown2 && 
+     
+     <Dropdown2  />
+  
+
+}
     <a href='/appointment' className='nav-links'>Appointment</a>
     <a href='/contact' className='nav-links'>Contact</a>
     </li>

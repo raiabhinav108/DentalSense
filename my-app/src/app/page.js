@@ -23,7 +23,6 @@ export default function Home() {
         <Procedure/>
         <GetAppointment/>
         <RectangularCard/>
-        <Testimonials/>
         <Brands/>
         <Footer/>
     </main>
