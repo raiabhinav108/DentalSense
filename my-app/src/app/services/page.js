@@ -3,25 +3,78 @@
 "use client";
 import { IoIosArrowDown } from "react-icons/io";
 import './services.css'
-
+import useMediaQuery from '@mui/material/useMediaQuery';
 import NewNav from '../../components/Navbar/NewNav';
 import Footer from '../../components/Footer/Footer';
 import Sfinal from '../../components/servicesFinal/Sfinal';
 import DentalCare from '../../components/DentalCare/DentalCare';
 
 export default function Services() {
+    const isMobile = useMediaQuery("(max-width: 767px)");
+    const isTablet = useMediaQuery("(min-width: 768px)");
 
     return(<div className="main_s">
+    
         <NewNav/>
+
+     
         <div className="k_head"><h1>Our Services</h1></div>
       <div className="arrow_b"><span><IoIosArrowDown/></span></div>
+     
+        
+      {isMobile &&
+        <div className="s_main_desc1">
+            <div className="s_sub_head1">WHAT WE OFFER</div>
+            <div className="s_main_head1"><h1>All Types of Dental Services </h1></div>
+            <div className="s_para_head1"><p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p></div>
+        </div>
+    }
+    {isMobile &&
+        <div className="s_ourwork1">
+        <div className="product_all_one">
+        <div className="product1a">
+                <div className="imag1"><img src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc1"><h4>Dental</h4><h4>Implants</h4></div>
+            </div>
+            <div className="product2a">
+                <div className="imag1"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc1"><h4>Dental</h4><h4>Products</h4></div>
+            </div>
+            <div className="product3a">
+                <div className="imag1"><img src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc1"><h4>Cavity </h4><h4>Prevention</h4></div>
+            </div>
+            </div>
+            <div className="product_all_two">
+            <div className="product3a">
+                <div className="imag1"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc1"><h4>Root Canal</h4><h4>Treatement</h4></div>
+            </div>
+            <div className="product3a">
+                <div className="imag1"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc1"><h4>Tooth</h4><h4>Extraction</h4></div>
+            </div>
+            <div className="product3a">
+                <div className="imag1"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
+                <div className="desc1"><h4>Teeth</h4><h4>Whitening</h4></div>
+            </div>
+            </div>
+        
+
+    </div>
+    }
+     
+
+      {isTablet &&
         <div className="s_ourwork">
-      
+     
         <div className="s_main_desc">
             <div className="s_sub_head">WHAT WE OFFER</div>
             <div className="s_main_head"><h1>All Types of Dental Services </h1></div>
             <div className="s_para_head"><p>Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.</p></div>
         </div>
+      
+    
         <div className="product1">
                 <div className="imag"><img src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
                 <div className="desc"><h4>Dental</h4><h4>Implants</h4></div>
@@ -31,9 +84,11 @@ export default function Services() {
                 <div className="desc"><h4>Dental</h4><h4>Products</h4></div>
             </div>
  
-
+        
 
     </div>
+}
+{isTablet &&
     <div className="sub_work">
     <div className="product3">
                 <div className="imag"><img src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
@@ -51,7 +106,32 @@ export default function Services() {
                 <div className="imag"><img  src="https://thesmilist.com/wp-content/uploads/2021/03/prosthodontics.png" alt=""/></div>
                 <div className="desc"><h4>Teeth</h4><h4>Whitening</h4></div>
             </div>
-    </div>
+    </div>  
+}
+
+  <DentalCare/>
+  <Sfinal/>
+
+        <Footer/>
+</div>
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
     {/* <div className="s_services">
        <div className="s_section">
@@ -127,11 +207,3 @@ export default function Services() {
        </div>
      
     </div> */}
-
-  <DentalCare/>
-  <Sfinal/>
-
-        <Footer/>
-</div>
-    )
-}
