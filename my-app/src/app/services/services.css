@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 .main_s{
     background-color: #F7F9FB;
+    overflow: hidden;
 }
 .k_head{
     margin-bottom: 1.5em;
@@ -114,7 +115,134 @@ padding-top: 5.2em;
 
 
 
-@media screen and (max-width: 1024px){
+.s_ourwork1{
+    background-color: #F7F9FB;
+    padding: 0 7% 0em;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.sub_work1{
+    background-color: #F7F9FB;
+    padding: 0 7% 5%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.s_sub_head1{
+    color: #404040; 
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    
+    opacity: .9;
+    padding :0 0 0.8em;
+}
+.s_main_desc1{
+    width:100%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+ .s_main_head1{
+    padding-bottom: 0.8em;
+    
+}
+ .s_main_head1 h1{
+    font-size: 26px;
+    line-height: 30px;
+width:90%;
+    letter-spacing: 0.03em;
+}
+ .s_para_head1 {
+    margin-bottom: 2em;
+    font-size: 0.95em;
+    letter-spacing: 0.02rem;
+    color: #85898D;
+    line-height: 1.7;
+    width:85%;
+    
+}
+
+
+.product1a .desc1 {
+
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color:#2b2b2d;
+
+}
+.product2a .desc1 {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color:#2b2b2d;
+}
+.product3a .desc1 {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color:#2b2b2d;
+}
+.product1a{
+   
+    padding-bottom: 1em;
+}
+.product2a{
+   
+    padding-bottom: 1em;
+}
+.product3a{
+   
+    padding-bottom: 1em;
+}
+.imag1{
+    padding-bottom: 0.4em;
+}
+
+.imag1 img{
+    height:60px;
+     width:60px;
+}
+
+
+.product_all_one{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+ 
+    
+}
+
+.product_all_two{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .arrow_b{
+   
+        margin-bottom: 1.5em;
+    }
+    .k_head{
+        margin-bottom: 0.4em;
+    }
+    .k_head h1{
+        font-size: 26px;
+        line-height: 31px;
+
+        letter-spacing: 0;
+        padding-top: 4em;
+      
+        text-align: center; 
+    }
     .s_ourwork{
         display: flex;
         flex-direction: column-reverse;
