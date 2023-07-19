@@ -46,7 +46,7 @@ const NewNav = () => {
 
   return (
     <>
-    <header class="header">
+    <header class="header" >
     <div className="nav_main">
     <div className="navhead">
     <a href="/" class="logo"><img src='images/Header-Logo.svg'></img></a>
@@ -58,16 +58,18 @@ const NewNav = () => {
    
     <ul className="menu">
     <li>
-    <a onClick={handleOnClick} 
-        onMouseEnter={onMouseEnter}
+    <a 
+        onMouseOver={onMouseEnter}
+        
           href='/' className='nav-links'>Home</a>
     { dropdown && 
      
-                  <Dropdown  />
+                  <Dropdown />
                
 
     }
-    <a href='/faqs' className='nav-links'>FAQs</a>
+    
+    <a href='/faqs' className='nav-links' onMouseOver={handleOnClick} >FAQs</a>
     <a onClick={handleOnClick2} onMouseEnter={onMouseEnter2} href='/services' className='nav-links'>Services</a>
     { dropdown2 && 
      

@@ -4,12 +4,22 @@ import styles from "./appointment.module.css"
 import Image from 'next/image'
 import NewNav from '../../components/Navbar/NewNav';
 import Footer from '../../components/Footer/Footer';
-
+import "./newpage.css"
 export default function Appointment() {
     
         const [state, handleSubmit] = useForm("mvojpeep");
         if (state.succeeded) {
-            return <p>Thanks for joining!</p>;
+            return <div className="conf-modal center success">
+            <div className="title-icon">
+              <img src="images/correct.png" />
+            </div>
+            <div className="title-text"><h1>Success!</h1></div>
+            <p>Your order has been placed. Press "Back" button to jump back to home page. </p>
+            <div className="modal-footer">
+             <a href='./'> <div className="conf-but green" onClick="">BACK</div></a>
+
+            </div>
+          </div>;
         }
     return(
         <div className={styles.denbody}>
