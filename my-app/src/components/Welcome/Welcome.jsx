@@ -16,6 +16,7 @@ const Welcome = () =>{
     
     return(
         <div>
+        
             <div className={styles.Welcomeparentmr}>
                 <div className={styles.leftmr} >
                     <img className={styles.welcomeimagemr} data-aos="fade-up" src="https://tooth-fairy.ancorathemes.com/wp-content/uploads/elementor/thumbs/home1-image1-copyright-q1iv4f3n1e18dm76q6lv97hqgqewi8wwy1fcp8s9hw.jpg" width="520px" height="642px" style={{borderRadius:"10px"}}></img>
