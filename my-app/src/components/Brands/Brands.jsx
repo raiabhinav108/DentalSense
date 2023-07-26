@@ -33,8 +33,8 @@ const Brands = () => {
     <div className="fd_section">
     <div className="heading_main1">
        <h1>
-        Trusted by leading</h1>
-       <h1>brands and startups</h1>
+        Happy reviews by</h1>
+       <h1>happy patients✨</h1>
  
         </div>
        
