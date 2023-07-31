@@ -1,0 +1,123 @@
+.profileGrandparent{
+    background-color: #F7F9FB;
+  
+   
+}
+.progressheading{
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.profileParent{
+    
+    width: 83%;
+    margin: 0 auto;
+}
+.profilesmallHead{
+    color: #85898D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    opacity: .9;
+    padding-top: 7em;
+}
+
+.profilesbigHead{
+    font-size: 54px;
+    line-height: 1.1em;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+}
+.photoslidercontentgrp{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+.doctorsAbout{
+    width: 90%;
+    background-color: white;
+    padding: 40px 40px 40px 40px;
+    color: gray;
+    line-height: 2em;
+    border-radius: 10px;
+    display: flex;
+    gap: 2em;
+}
+.doctorsBiography{
+    display: flex;
+    width: 83%;
+    margin:  0 auto;
+    padding-top: 4em;
+}
+.BiographyHead{
+    margin: 0 0 0.55em;
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.086em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.BioPara div{
+    width: 75%;
+    font-size: 16.5px;
+    line-height: 1.64em;
+    color: gray;
+    margin-bottom: 1em;
+}
+.bioemail{
+    color: gray;
+    margin-bottom: 1em;
+}
+.biophone{
+
+    margin-bottom: 5em;
+}
+.bioformHead{
+
+    margin: 0 0 0.55em;
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.086em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.bioinput{
+    
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0.1px;
+    margin-bottom: 2em;
+    border-width: 0px 0px 1px 0px;
+    height: 50px;
+    font-family: sans-serif;
+}
+.BioFormsection form button{
+    color: white;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #00BDE0;
+    margin-bottom: 4em;
+    
+}
